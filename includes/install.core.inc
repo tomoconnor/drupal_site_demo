@@ -1050,7 +1050,7 @@ function install_select_profile(&$install_state) {
       // URL.
       if ($install_state['interactive']) {
         include_once DRUPAL_ROOT . '/includes/form.inc';
-        drupal_set_title(st('Select an installation profile'));
+        drupal_set_title(st('Choose a Thingy.'));
         $form = drupal_get_form('install_select_profile_form', $install_state['profiles']);
         return drupal_render($form);
       }
